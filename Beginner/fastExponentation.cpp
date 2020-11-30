@@ -1,6 +1,16 @@
 #include <iostream>
 
 using namespace std;
+/*
+For even n: half_power * half_power
+For odd n: half_power * half_power * a
+
+a⁸ = a⁴ * a⁴ 
+a⁴ = a² * a² 
+a² = a¹ * a¹ 
+a¹ = a⁰ * a⁰ * a
+a⁰ = 1
+*/
 
 int calc_power(int a, int n){
     if(!n) return 1;
